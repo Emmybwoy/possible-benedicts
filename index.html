@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benedict Possible — Digital Creator</title>
+  <meta name="description" content="Benedict Possible is a Digital Creator specializing in videography, photography, graphic design, video editing, photo editing, and social media management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="#" class="logo">Benedict<span class="logo-dot">.</span></a>
+    <div class="desktop-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Work</a>
+      <a href="#blog">Insights</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">☰</button>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Work</a>
+      <a href="#blog">Insights</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero-gradient"></div>
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <p class="hero-label">Digital Creator</p>
+        <h1 class="hero-title">Benedict<br>Possible</h1>
+        <p class="hero-tagline">Videography • Photography • Graphic Design • Social Media</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image-box">
+          <img src="hero-photo.jpeg" alt="Benedict Possible" class="hero-image">
+          <div class="hero-image-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about section-reveal">
+    <div class="about-grid container">
+      <div class="about-image-wrap">
+        <img src="about-photo.jpeg" alt="About Benedict Possible" class="about-image">
+      </div>
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title dark">Creative Content With Purpose</h2>
+        <p class="about-para">
+          Benedict Possible is a Digital Creator skilled in videography, photography, graphic design, video editing, photo editing, and social media management. He works with tools such as Canva, PixelLab, and CapCut and focuses on creating quality visual content and designs.
+        </p>
+        <p class="about-para">
+          He has experience working with Deeper Life Campus Fellowship, MOUAU, where he creates videos and graphics and manages the fellowship's social media presence. He is also interested in continuous learning, problem-solving, communication, and developing his creative skills in line with industry trends.
+        </p>
+        <div class="stats-row">
+          <div class="stat-chip">
+            <div class="stat-num">Videography</div>
+          </div>
+          <div class="stat-chip">
+            <div class="stat-num">Photography</div>
+          </div>
+          <div class="stat-chip">
+            <div class="stat-num">Graphic Design</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services section-reveal">
+    <div class="container">
+      <p class="section-label center">What I Do</p>
+      <h2 class="section-title center">Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Videography &amp; Video Editing</h3>
+          <p>Creating and editing video content for personal, community, and promotional projects.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Photography &amp; Photo Editing</h3>
+          <p>Capturing photographs and enhancing them through thoughtful editing and post-production.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Graphic Design</h3>
+          <p>Creating flyers, promotional graphics, and visual designs using tools such as Canva and PixelLab.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Social Media Management</h3>
+          <p>Managing social media content and maintaining a consistent digital presence for communities and organizations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Telecom Expertise</h3>
+          <p>Knowledge and experience in telecom-related solutions and digital communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio section-reveal">
+    <div class="container">
+      <p class="section-label center dark-label">Selected Work</p>
+      <h2 class="section-title center dark">Portfolio</h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Video">Video</button>
+        <button class="filter-btn" data-filter="Photography">Photography</button>
+        <button class="filter-btn" data-filter="Graphic Design">Graphic Design</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-card" data-category="Video">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80" alt="Fellowship Video Content" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Video</span>
+            <h3>Fellowship Video Content</h3>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="Photography">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Event Photography" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Photography</span>
+            <h3>Event Photography</h3>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="Graphic Design">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Promotional Graphic Design" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Graphic Design</span>
+            <h3>Promotional Graphic Design</h3>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="Video">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Social Media Video" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Video</span>
+            <h3>Social Media Video</h3>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="Photography">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Photography Collection" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Photography</span>
+            <h3>Photography Collection</h3>
+          </div>
+        </div>
+        <div class="portfolio-card" data-category="Graphic Design">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80" alt="Promotional Flyer Design" loading="lazy">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Graphic Design</span>
+            <h3>Promotional Flyer Design</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog section-reveal">
+    <div class="container">
+      <p class="section-label center">Insights</p>
+      <h2 class="section-title center">Creative Thoughts</h2>
+      <div class="blog-grid">
+        <article class="blog-card" data-color="#C9A227">
+          <span class="blog-tag" style="--tag-color:#C9A227">Videography</span>
+          <h3>Why the First Few Seconds Matter</h3>
+          <div class="blog-body">
+            <p>The first few seconds of a video can decide whether someone stays or scrolls away. A strong opening frame, a clear message, and a confident visual hook keep attention focused.</p>
+            <p>Good storytelling begins with intention. If the viewer understands the purpose immediately, the rest of the content has a stronger chance to connect.</p>
+          </div>
+          <div class="blog-footer">
+            <span class="read-time">Quick insight</span>
+            <button type="button" class="read-more" aria-expanded="false">Read insight →</button>
+          </div>
+        </article>
+        <article class="blog-card" data-color="#C9A227">
+          <span class="blog-tag" style="--tag-color:#C9A227">Photography</span>
+          <h3>Editing Starts Before the Camera</h3>
+          <div class="blog-body">
+            <p>Strong photography begins long before the edit. Light, angle, composition, and subject placement shape the final image before post-production ever starts.</p>
+            <p>When the frame is intentional, editing becomes a simple enhancement rather than a rescue. That is where quality and storytelling meet.</p>
+          </div>
+          <div class="blog-footer">
+            <span class="read-time">Quick insight</span>
+            <button type="button" class="read-more" aria-expanded="false">Read insight →</button>
+          </div>
+        </article>
+        <article class="blog-card" data-color="#C9A227">
+          <span class="blog-tag" style="--tag-color:#C9A227">Graphic Design</span>
+          <h3>Good Design Is More Than Looking Good</h3>
+          <div class="blog-body">
+            <p>Design works best when it communicates clearly. A visually appealing design still needs to guide the viewer, support a message, and create a useful response.</p>
+            <p>Strong visual communication balances style with clarity. The goal is not just beauty — it is connection and understanding.</p>
+          </div>
+          <div class="blog-footer">
+            <span class="read-time">Quick insight</span>
+            <button type="button" class="read-more" aria-expanded="false">Read insight →</button>
+          </div>
+        </article>
+        <article class="blog-card" data-color="#C9A227">
+          <span class="blog-tag" style="--tag-color:#C9A227">Social Media</span>
+          <h3>Creating With Purpose</h3>
+          <div class="blog-body">
+            <p>Social media content is most effective when it has a clear intention. Whether the goal is awareness, engagement, or community support, quality content should always serve a purpose.</p>
+            <p>Consistency, clarity, and relevance matter more than posting for the sake of posting. Thoughtful content builds trust and stronger connection over time.</p>
+          </div>
+          <div class="blog-footer">
+            <span class="read-time">Quick insight</span>
+            <button type="button" class="read-more" aria-expanded="false">Read insight →</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience section-reveal">
+    <div class="container narrow">
+      <p class="section-label center dark-label">My Journey</p>
+      <h2 class="section-title center dark">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">2021 – Present</span>
+            <h3>Digital Creator / Social Media Manager</h3>
+            <p class="timeline-company">Deeper Life Campus Fellowship, MOUAU</p>
+            <p class="timeline-desc">Creates personalized and promotional videos using CapCut, designs flyers and graphics using Canva and PixelLab, and manages the Deeper Life Campus Fellowship, MOUAU social media presence.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">2022</span>
+            <h3>Class Teacher</h3>
+            <p class="timeline-company">Greenville International School</p>
+            <p class="timeline-desc">Implemented innovative teaching strategies to improve student learning outcomes and used flash-card teaching methods to support student understanding.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">2017 – 2022</span>
+            <h3>Academic Coach</h3>
+            <p class="timeline-company">Private Practice</p>
+            <p class="timeline-desc">Provided individualized academic coaching and private tutoring sessions for primary and secondary school students, including examination preparation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education section-reveal">
+    <div class="container">
+      <p class="section-label center dark-label">Learning Path</p>
+      <h2 class="section-title center dark">Education &amp; Certifications</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>B.Sc. Entrepreneurial Studies</h3>
+          <p>Michael Okpara University of Agriculture, Umudike</p>
+          <span>2021 – Present</span>
+        </div>
+        <div class="edu-card">
+          <h3>Senior School Certificate Examination (SSCE)</h3>
+          <p>Girls Secondary School, Ikenegbu</p>
+          <span>Completed 2020</span>
+        </div>
+        <div class="edu-card">
+          <h3>First School Leaving Certificate (FSLC)</h3>
+          <p>Assurance Model School</p>
+          <span>Completed 2015</span>
+        </div>
+        <div class="edu-card">
+          <h3>Certified Graphics Designer</h3>
+          <p>Michael Okpara University Skill Acquisition Scheme</p>
+          <span>Certification • 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="community section-reveal">
+    <div class="container">
+      <p class="section-label center">Community</p>
+      <h2 class="section-title center">Community &amp; Volunteer Experience</h2>
+      <div class="community-badges">
+        <div class="community-badge">Google Developers Group, Umuahia</div>
+        <div class="community-badge">Google Developers School Group, Umuahia</div>
+        <div class="community-badge">She Code Africa</div>
+        <div class="community-badge">Save-Extra Eco-Friendly Product</div>
+        <div class="community-badge">Mega Skill Acquisition</div>
+        <div class="community-badge">Deeper Life Campus Fellowship, MOUAU</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section section-reveal">
+    <div class="container narrow">
+      <p class="section-label center dark-label">Resume</p>
+      <h2 class="section-title center dark">Want the Full Picture?</h2>
+      <p class="cv-desc">Download my CV for a complete overview of my skills, experience, and achievements.</p>
+      <div class="cv-buttons">
+        <a href="https://drive.google.com/file/d/1R6Hd2u2edl9NpHnlOrozFaT3MpXiYmf0/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          View CV
+        </a>
+        <a href="https://drive.google.com/uc?export=download&id=1R6Hd2u2edl9NpHnlOrozFaT3MpXiYmf0" class="btn btn-outline-accent btn-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-reveal">
+    <div class="container">
+      <p class="section-label center">Let's Connect</p>
+      <h2 class="section-title center">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <a href="mailto:possiblebenedict2004@gmail.com" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            possiblebenedict2004@gmail.com
+          </a>
+          <a href="https://wa.me/2347026461073" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            +234 702 646 1073
+          </a>
+          <a href="https://wa.me/2349131478413" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            +234 913 147 8413
+          </a>
+          <a href="https://www.linkedin.com/in/benedict-possible" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            linkedin.com/in/benedict-possible
+          </a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div class="form-status" id="formStatus" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Benedict Possible. All rights reserved. Built with intention.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
